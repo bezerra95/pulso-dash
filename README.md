@@ -1,75 +1,43 @@
-# Nuxt Minimal Starter
+# pulso-dash
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Dashboard administrativo construído com Nuxt 4 e Vuetify 3.
 
-## Setup
+## Stack
 
-Make sure to install dependencies:
+- [Nuxt 4](https://nuxt.com) — framework Vue
+- [Vuetify 3](https://vuetifyjs.com) via `vuetify-nuxt-module`
+- [Pinia](https://pinia.vuejs.org) — gerenciamento de estado
+- [Chart.js](https://www.chartjs.org) + `vue-chartjs` — gráficos
+- [Axios](https://axios-http.com) — requisições HTTP
+- [Day.js](https://day.js.org) — datas
+- [Maska](https://beholdr.github.io/maska) — máscaras de input
+- [Lodash-es](https://lodash.com) — utilitários
+
+## Configuração
+
+Copie o arquivo de exemplo e preencha as variáveis:
 
 ```bash
-# npm
+cp .env.example .env
+```
+
+Instale as dependências:
+
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## Desenvolvimento
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Acesse em `http://localhost:3000`.
 
-Build the application for production:
+## Build
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
